@@ -1,0 +1,30 @@
+<!--     
+Document object model -> Allows dynamic Manipulations of a page content using JavaScript
+
+DOM Manipulation -> Programmatical Process of modifying the structure and adding functions to the 
+                    webpages using Javascript
+-->
+
+
+<p id = "one"> 
+    Hello 
+</p>
+<script>
+    // selecting p tag by 'id'
+
+    console.log(document.getElementById("one"))               // output : <p id = "one"> Hello </p> (shown in console)
+    var a = document.getElementById("one")
+    console.log(a.textContent)                               // textContent will give the value inside the tags
+    a.textContent = "Bye"                                // hello will changes to Bye
+
+
+</script>
+
+
+
+
+
+
+
+
+
