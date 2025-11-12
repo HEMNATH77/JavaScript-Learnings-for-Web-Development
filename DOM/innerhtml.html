@@ -1,0 +1,37 @@
+<!--      INNER HTML   -> Property in javascript that allows you to modify 
+      the HTML content of an element in DOM 
+      
+                    -> primarily used to retrieve or set the HTML Content inside a HTML Element 
+ -->
+
+
+<div id="yar"> 
+    <h1>Hello Boss</h1>
+</div>
+<script> 
+    var text  = document.getElementById("yar")
+    console.log(text)                                  // op : <div> --- </div>
+    console.log(text.textContent)                      // op : Hello Boss
+    console.log(text.innerHTML)                        // op : <h1>Hello Boss </h1>         
+                                               // all these are seen in console
+</script>
+
+
+
+<!--   DIFFERENCE BETWEEN textContent    and      innerHTML
+   
+textContent -> used when you want just the text
+
+innerHTML  -> used when you want to insert or read the formatted HTML Content
+
+-->
+
+
+
+
+
+
+
+
+
+
