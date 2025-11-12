@@ -1,0 +1,30 @@
+<!--- EVENT  -> Action or occurence that happens in the browser usually as a result of UI 
+      TARGET  -> Present inside the event which holds a particular function
+-->
+
+
+<h1 id = "name"> Name</h1>
+
+<button onclick="change(event)"> zara</button>
+<button onclick="change(event)"> tara</button>
+
+
+<script>
+    var h1 = document.getElementById("name")
+
+
+    function change(event){
+        h1.textContent = event.target.textContent
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+

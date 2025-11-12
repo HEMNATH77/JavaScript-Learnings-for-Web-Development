@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+</head>
+<body>
+    <style>
+        div{
+            background-color: red;
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+    <div id = "box"></div>
+    <button onclick="change()">change</button>
+    <script>
+        var box = document.getElementById("box")
+        function change(){
+            box.style.backgroundColor = "blue"   // when we click the change button the color changed from red to blue 
+        }
+    </script>
+</body>
+</html>
