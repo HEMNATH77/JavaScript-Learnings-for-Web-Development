@@ -1,0 +1,27 @@
+<!-- insertAdjacentElement( )   -> Inserts an existing DOM element relativ to anothe element -->
+
+
+<div>
+    <h1> thala </h1>
+    <h1> thalapathy </h1>
+</div>
+
+<script> 
+    var a = document.querySelector("div")
+    var h1 = document.createElement("h1")
+
+    h1.textContent = "Hero"
+    
+    // 1. Before begin 
+    a.insertAdjacentElement("beforebegin",h1)
+    
+    // 2.afterbegin
+    a.insertAdjacentElement("afterbegin",h1)
+
+    //beforeend
+    a.insertAdjacentElement("beforeend",h1)
+
+    // 4. afterend
+    a.insertAdjacentElement("afterend",h1)
+</script>
+
