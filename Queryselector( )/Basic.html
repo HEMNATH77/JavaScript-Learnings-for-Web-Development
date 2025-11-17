@@ -1,0 +1,40 @@
+<!--- Query Selector() -> used to select the first element in the document 
+                          that matches a specified CSS Selector
+                          
+-->
+  
+<!-- 1. By using id -->
+
+
+<div id = "hel"> hello </div>
+<script>
+    var msg = document.querySelector("#hel")
+    console.log(msg)
+</script> 
+
+
+<!-- 2. By using class -->
+
+<h1 class="one"> The One </h1>
+<h1 class="two"> Retro</h1>
+
+<script> 
+    var a = document.querySelector(".two")
+    console.log(a)
+</script>
+
+<!-- 3. By using tags -->
+
+<h1> the one</h1>
+<h1> two </h1>
+
+<script>
+    var b = document.querySelector("h1")
+    console.log(b)
+</script>
+
+
+
+
+
+
