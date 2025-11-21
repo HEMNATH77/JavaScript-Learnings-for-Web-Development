@@ -5,6 +5,7 @@ This space contains all my practice files, mini projects, and notes as I learn a
 
 ---
 
+
 ## 📚 Topics Covered
 
 - ✨ JavaScript Basics (variables, operators, loops, functions)
